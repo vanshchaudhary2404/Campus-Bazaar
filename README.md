@@ -1,6 +1,6 @@
-# 🏫 Campus Bazaar
+# 🏫 CampusKart
 
-Campus Bazaar is a student-focused marketplace platform that enables students to buy, sell, exchange, and discover products within their college campus community.
+CampusKart is a student-focused marketplace platform that enables students to buy, sell, exchange, and discover products within their college campus community.
 
 The platform aims to create a trusted and convenient environment where students can trade books, electronics, stationery, furniture, hostel essentials, and other items without relying on external marketplaces.
 
