@@ -6,6 +6,44 @@ The platform aims to create a trusted and convenient environment where students 
 
 ---
 
+## 🚀 Local Setup (MERN style)
+
+### Prerequisites
+- Node.js 22
+- MongoDB running locally on port 27017
+
+### Install and run
+
+```powershell
+nvm use 22.11.0
+npm install
+npm run dev
+```
+
+This starts both services together:
+- Backend: http://localhost:5000
+- Frontend: http://localhost:5173 (or the next available Vite port)
+
+If you want to run the backend by itself:
+
+```powershell
+nvm use 22.11.0
+node backend/server.js
+```
+
+### Environment variables
+Create a `.env` file in the project root with:
+
+```env
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/campus-bazaar
+JWT_SECRET=campus-bazaar-secret-key
+CLIENT_URL=http://localhost:5173
+VITE_API_URL=http://localhost:5000/api
+```
+
+---
+
 ## 🚀 Features
 
 ### 👤 User Authentication
